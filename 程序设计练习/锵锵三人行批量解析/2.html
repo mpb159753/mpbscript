@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script type="text/javascript">
+        function xxx(){
+            var lines = document.getElementById("url").value;
+            var url_list= lines.split("\n");
+            var url;
+            for(url in url_list){
+                document.write(url_list[url]+"</br>")
+            }
+            return false
+        }
+    </script>
+
+
+
+</head>
+<body>
+<form onsubmit="return xxx()">
+    <textarea name="url" id="url" rows="10" cols="150"></textarea>
+    <input type="submit">
+
+</form>
+
+</body>
+</html>

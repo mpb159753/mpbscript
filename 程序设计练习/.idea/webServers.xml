@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="940212de-d09b-4a9f-be74-59392dcabe70" name="SSH" url="http://23.83.254.187">
+        <fileTransfer host="23.83.254.187" port="29625" accessType="SFTP" username="root">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="29625" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="23aa485a-5e4d-422a-b145-0122e1defe6d" name="Tencent" url="http://182.254.216.213">
+        <fileTransfer host="182.254.216.213" port="22" privateKey="C:\Users\mpb\OneDrive\安装包\私钥.ppk" rootFolder="/home/workspace" accessType="SFTP" username="root" keyPair="true">
+          <advancedOptions>
+            <advancedOptions controlEncoding="utf-8" dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

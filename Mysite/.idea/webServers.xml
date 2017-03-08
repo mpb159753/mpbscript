@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="sftp://root@23.83.254.187:28815/usr/bin/python" name="sftp://root@23.83.254.187:28815/usr/bin/python" url="http://23.83.254.187:80">
+        <fileTransfer host="23.83.254.187" port="26033" privateKey="C:\Users\mpb\OneDrive\安装包\私钥.ppk" accessType="SFTP" keyPair="true">
+          <option name="port" value="26033" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
