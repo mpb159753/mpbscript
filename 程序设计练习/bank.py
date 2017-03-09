@@ -8,8 +8,7 @@ import time
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-headers = {'Accept-Language': 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3', 'Host': 'bank.wo.cn', 'Accept': 'application/json', 'Referer': 'http://bank.wo.cn/jx/person', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Cookie': '__c=FXOX; __i=1vbqNAGIXabHUtSZVHt5Y/Apsl2EQnTj; __u=15565307605; __t=1475645883771; __f="{"total":4084006.62,"used":144146}"', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:48.0) Gecko/20100101 Firefox/48.0'}
-
+headers = {}
 
 def share():
     output = "\n"
