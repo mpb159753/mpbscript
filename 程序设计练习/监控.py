@@ -14,8 +14,8 @@ sys.setdefaultencoding('utf-8')
 
 
 def send_msg(number, text, way, code):
-    appkey = 23287812
-    secret = "dce59b35c0d47b9c058931b86d217262"
+    appkey = 
+    secret = ""
 
     if way == "call":
         req = top.api.AlibabaAliqinFcVoiceNumSinglecallRequest()
