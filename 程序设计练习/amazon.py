@@ -89,7 +89,6 @@ def amazon(name, lowest, original, url):
     print text
     if ss < lowest:
         print "send_msg"
-        send_msg(15565307605, {"time": name, "statue": text}, 'text', "SMS_27140001")
         return ss
     else:
         return ss
