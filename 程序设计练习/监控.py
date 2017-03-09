@@ -105,7 +105,6 @@ def monitor():
         return
     else:
         print "send_msg"
-        send_msg(15565307605, {"time": ctime, "statue": text}, 'text', "SMS_27140001")
         old_text = open("1.log", "w")
         old_text.write(text)
         old_text.close()
