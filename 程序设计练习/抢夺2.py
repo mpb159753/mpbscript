@@ -94,7 +94,3 @@ def work(number_list, my_number):
         else:
             break
 
-work(user_list, 15565307605)
-# rob_list(15617570979)
-# duihuan(15565307605)
-
