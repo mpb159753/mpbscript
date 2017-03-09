@@ -169,7 +169,6 @@ def amazon():
         return 0
     else:
         print "send_msg"
-        #send_msg(15565307605, {"time": "小鹰光线价格", "statue": text}, 'text', "SMS_27140001")
         return 0
 
 
