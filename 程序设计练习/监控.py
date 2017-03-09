@@ -151,14 +151,7 @@ def check():
             break
     if difference:
         print 'xx'
-    #     send_msg(15565307605, {"time": time.strftime("%m-%d %H:%M", time.localtime()),
-    #                            "statue": difference}, 'text', "SMS_27140001")
-    #
-    #     log.write("<h2>" + time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()) + " " + "查验状态改变" + difference+ s[difference] + "</h2>")
-    # else:
-    #     log.write("<h2>" + time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()) + " " + "查验状态未改变" + "</h2>")
-    #
-    # log.close()
+   
 
 
 def amazon():
@@ -200,5 +193,5 @@ while amazon_result:
 #         pass
 # amazon()
 
-# send_msg(15565307605, {"time": time, "}, 'call_msg', "	SMS_27020017")
+
 # print time.strftime("%m-%d %H:%M", time.localtime()-50400.0)
