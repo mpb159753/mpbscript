@@ -88,6 +88,7 @@ def amazon(name, lowest, original, url):
     # log.close()
     print text
     if ss < lowest:
+        send_msg(number, write_log, text, code):
         print "send_msg"
         return ss
     else:
